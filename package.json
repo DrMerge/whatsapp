@@ -1,0 +1,24 @@
+{
+  "name": "sapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "openai": "^3.2.1",
+    "pngjs": "^7.0.0",
+    "qr-image": "^3.2.0",
+    "qrcode": "^1.5.3",
+    "qrcode-terminal": "^0.12.0",
+    "wbm": "^1.1.16",
+    "whatsapp-web.js": "^1.19.5"
+  }
+}
